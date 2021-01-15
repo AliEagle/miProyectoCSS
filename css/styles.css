@@ -4,79 +4,69 @@
     padding: 0;
 }
 
-header{
-    background-color: blueviolet;
+html{
+    font-size: 62.5%;
 }
 
-.header__logo, .nav, .nav__list li{
+body{
+    font-size: 2rem;
+}
+
+.header{
+    background-color: rgb(230, 53, 171);
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.nav-bar{
+    background-color: rgb(214, 127, 255);
+    display: block;
+    float: left;
+    width: 80%;
+}
+
+.nav-bar__menu li{
     display: inline-block;
-    margin: 10px;
-}
-
-.nav{
-    position: absolute;
-    right: 0;
-}
-
-.nav__list{
     list-style: none;
-}
-
-.nav__list li a{
-    text-decoration: none;
-    color: aliceblue;
+    margin: 12px;
 }
 
 .main{
-    height: 85vh;
-    background-color: aqua;
-}
-
-.aside {
-    display: inline-block;
-    height: 100%;
-    padding: 10px;
-    background-color: bisque;
-}
-
-.aside__list{
+    background-color: aquamarine;
     display: block;
-    margin: 5px 0;
-    height: 100%;
-    list-style: none;
-}
-
-.aside__list li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25%;
-    width: 250px;
-    border: 2px solid green;
-    background-color: beige;
-    border-radius: 10px;
+    float: right;
+    width: 80%;
+    height: 87vh;
+    padding: 5px;
     text-align: justify;
-    padding: 10px;
 }
 
 
+.imagenuno img{
+    width: 60%;
+}
 
-.content{
+.sidebar{
+    background-color: aqua;
     display: inline-block;
-    padding: 10px;
-    position: absolute;
+    width: 20%;
+    height: 87vh;
 }
 
-.footer{
-    display: flex;
-    background-color: blue;
-    height: 7vh;
-    justify-content: center;
-    align-items: center;
+.sidebar__entries{
+    height: 83vh;
 }
 
-.footer__text{
-    display: inline-block;
-    position: relative;
-    font-size: 1.5em;
+.sidebar__entries li{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 25%;
+    margin: 5px;
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    height: 6.5vh;
 }
